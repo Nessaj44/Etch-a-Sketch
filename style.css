@@ -5,7 +5,6 @@
 }
 
 
-
 #container {
   display: grid;
   border: 2px solid black;
@@ -16,10 +15,18 @@
 }
 
 
-
 .box {
   background: white;
-  border: 1px solid black;
 }
 
 
+#btn1{
+  display: flex;
+  justify-content: center;
+}
+
+
+#btn2{
+  display: flex;
+  justify-content: center;
+}
