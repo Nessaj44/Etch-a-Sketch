@@ -28,3 +28,15 @@ function blackColor(e) {
 }
 
 
+function rainbowColor(e) {
+  num1 = Math.floor(Math.random() * 255);
+  num2 = Math.floor(Math.random() * 255);
+  num3 = Math.floor(Math.random() * 255);
+  e.target.style.background = `rgb(${num1}, ${num2}, ${num3})`;
+}
+
+
+function rainbow() {
+  const boxes = document.querySelectorAll('.box');
+  boxes.forEach(box => {box.addEventListener('mouseover', rainbowColor)});
+}
