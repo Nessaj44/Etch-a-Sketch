@@ -20,6 +20,7 @@ function createGrid (num) {
 function black() {
   const boxes = document.querySelectorAll('.box');
   boxes.forEach(box => {box.addEventListener('mouseover', blackColor)});
+  boxes.forEach(box => {box.removeEventListener('mouseover', rainbowColor)})
 }
 
 
@@ -39,6 +40,7 @@ function rainbowColor(e) {
 function rainbow() {
   const boxes = document.querySelectorAll('.box');
   boxes.forEach(box => {box.addEventListener('mouseover', rainbowColor)});
+  boxes.forEach(box => {box.removeEventListener('mouseover', blackColor)})
 }
 
 
