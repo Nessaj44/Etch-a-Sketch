@@ -3,3 +3,23 @@
   margin: 0;
   padding: 0;
 }
+
+
+
+#container {
+  display: grid;
+  border: 2px solid black;
+  height: 70vh;
+  width: 60vw;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+
+
+.box {
+  background: white;
+  border: 1px solid black;
+}
+
+
